@@ -1,0 +1,170 @@
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 0
+random forest training time: 0.039275
+Prposed pruning time: 0.324922
+old pruning time: 22.093418
+conjunction set training time: 0.386972
+number of branches per iteration: [11, 33, 75, 193, 321, 448, 613, 653, 885]
+number_of_branches: 885
+number_of_features_for_new_model: 11
+new model training time: 2.973
+new_model_accuracy: 0.9666666666666667
+new_model_precision: 0.9629629629629629
+new_model_recall: 0.9743589743589745
+new_model_f1: 0.9670588235294119
+
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 1
+random forest training time: 0.038312
+Prposed pruning time: 0.32569
+old pruning time: 27.564584
+conjunction set training time: 0.616118
+number of branches per iteration: [29, 85, 246, 374, 542, 769, 1047, 1291, 1382]
+number_of_branches: 1382
+number_of_features_for_new_model: 11
+new model training time: 11.494864
+new_model_accuracy: 0.9333333333333333
+new_model_precision: 0.9487179487179488
+new_model_recall: 0.9047619047619048
+new_model_f1: 0.9166666666666666
+
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 2
+random forest training time: 0.066772
+Prposed pruning time: 0.555369
+old pruning time: 37.830308
+conjunction set training time: 0.610724
+number of branches per iteration: [15, 46, 58, 147, 291, 377, 483, 848, 862]
+number_of_branches: 862
+number_of_features_for_new_model: 11
+new model training time: 4.893934
+new_model_accuracy: 0.9333333333333333
+new_model_precision: 0.9444444444444445
+new_model_recall: 0.9444444444444445
+new_model_f1: 0.9393939393939394
+
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 3
+random forest training time: 0.065733
+Prposed pruning time: 0.555069
+old pruning time: 37.786209
+conjunction set training time: 0.632763
+number of branches per iteration: [16, 57, 195, 388, 570, 1035, 1268, 1530, 2126]
+number_of_branches: 2126
+number_of_features_for_new_model: 11
+new model training time: 26.61042
+new_model_accuracy: 0.9333333333333333
+new_model_precision: 0.9166666666666666
+new_model_recall: 0.9444444444444445
+new_model_f1: 0.9220779220779222
+
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 4
+random forest training time: 0.066498
+Prposed pruning time: 0.553434
+old pruning time: 37.587103
+conjunction set training time: 0.683817
+number of branches per iteration: [21, 65, 126, 312, 486, 699, 936, 1221, 1313]
+number_of_branches: 1313
+number_of_features_for_new_model: 11
+new model training time: 10.416375
+new_model_accuracy: 0.9666666666666667
+new_model_precision: 0.9696969696969697
+new_model_recall: 0.9696969696969697
+new_model_f1: 0.9682539682539683
+
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 5
+random forest training time: 0.066522
+Prposed pruning time: 0.556699
+old pruning time: 37.772033
+conjunction set training time: 0.610656
+number of branches per iteration: [43, 93, 217, 293, 410, 537, 578, 877, 1114]
+number_of_branches: 1114
+number_of_features_for_new_model: 11
+new model training time: 8.205438
+new_model_accuracy: 0.9666666666666667
+new_model_precision: 0.9722222222222222
+new_model_recall: 0.9696969696969697
+new_model_f1: 0.9696342305037957
+
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 6
+random forest training time: 0.065788
+Prposed pruning time: 0.553432
+old pruning time: 37.593571
+conjunction set training time: 0.587623
+number of branches per iteration: [26, 69, 111, 138, 191, 343, 445, 492, 659]
+number_of_branches: 659
+number_of_features_for_new_model: 11
+new model training time: 3.062873
+new_model_accuracy: 0.9
+new_model_precision: 0.8956228956228957
+new_model_recall: 0.9027777777777778
+new_model_f1: 0.8976982097186701
+
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 7
+random forest training time: 0.066503
+Prposed pruning time: 0.553533
+old pruning time: 37.49954
+conjunction set training time: 0.670137
+number of branches per iteration: [47, 129, 257, 373, 462, 853, 1454, 1975, 2247]
+number_of_branches: 2247
+number_of_features_for_new_model: 11
+new model training time: 28.882175
+new_model_accuracy: 0.8333333333333334
+new_model_precision: 0.8809523809523809
+new_model_recall: 0.8611111111111112
+new_model_f1: 0.8398169336384439
+
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 8
+random forest training time: 0.065343
+Prposed pruning time: 0.550713
+old pruning time: 37.937582
+conjunction set training time: 0.591532
+number of branches per iteration: [18, 49, 100, 118, 149, 187, 253, 472, 526]
+number_of_branches: 526
+number_of_features_for_new_model: 11
+new model training time: 0.560098
+new_model_accuracy: 0.5666666666666667
+new_model_precision: 0.43333333333333335
+new_model_recall: 0.5690235690235691
+new_model_f1: 0.46962233169129713
+
+max_number_of_branches: 3000
+df_name: iris
+number_of_estimators: 100
+iteration: 9
+random forest training time: 0.066582
+Prposed pruning time: 0.552362
+old pruning time: 38.536711
+conjunction set training time: 0.574996
+number of branches per iteration: [12, 39, 39, 64, 109, 201, 315, 379, 617]
+number_of_branches: 617
+number_of_features_for_new_model: 11
+new model training time: 2.741085
+new_model_accuracy: 1.0
+new_model_precision: 1.0
+new_model_recall: 1.0
+new_model_f1: 1.0
+

@@ -1,0 +1,17 @@
+max_number_of_branches: 10
+df_name: iris
+number_of_estimators: 100
+iteration: 0
+random forest training time: 0.039504
+Prposed pruning time: 0.324954
+old pruning time: 22.106174
+conjunction set training time: 0.325882
+number of branches per iteration: [10, 10, 10, 10, 10, 10, 8, 10, 10]
+number_of_branches: 12
+number_of_features_for_new_model: 11
+new model training time: 0.008118
+new_model_accuracy: 0.7
+new_model_precision: 0.6666666666666666
+new_model_recall: 0.6666666666666666
+new_model_f1: 0.6656346749226006
+

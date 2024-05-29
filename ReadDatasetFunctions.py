@@ -5,12 +5,17 @@ from sklearn.datasets import load_iris
 from sklearn.feature_extraction import DictVectorizer
 def read_iris_data():
     iris = load_iris()
-    data = pd.DataFrame(iris.data[:], columns=iris.feature_names)
+    # Iris 데이터셋을 DataFrame으로 변환
+    data = pd.DataFrame(iris.data, columns=iris.feature_names)
+    # 클래스 레이블을 문자열로 변환하여 새로운 컬럼에 할당
     data['class'] = [iris.target_names[i] for i in iris.target]
-    y_column='class'
-    feature_types = ['float']*4
-    x_columns=iris.feature_names
-    return data,x_columns,y_column,feature_types
+
+    y_column = 'class'
+    feature_types = ['float'] * 4  # 모든 특성은 실수형 데이터
+    x_columns = iris.feature_names
+
+    return data, x_columns, y_column, feature_types
+
 
 def dummify_data(data,feature_cols, label_col):
     """
@@ -464,6 +469,43 @@ def read_hayes_roth():
     feature_types = ['float']*len(feature_cols)
     return data,feature_cols,label_col,feature_types
 
+
+import pandas as pd
+
+
+def read_penguin():
+    # 파일 경로 수정
+    data = pd.read_csv('datasets/penguin.csv')
+    # 결측치 제거
+    data = data.dropna()
+    # 'species' 컬럼 제거
+    data = data.drop(columns='species')
+
+    # 원-핫 인코딩 적용
+    # 범주형 변수만을 선택하여 원-핫 인코딩 수행
+    data_encoded = pd.get_dummies(data, columns=['sex', 'island'], drop_first=True)
+
+    # 특성 컬럼 설정 (원-핫 인코딩 후의 컬럼을 포함)
+    feature_cols = data_encoded.columns[:-1]  # 마지막 컬럼은 레이블로 가정
+    # 레이블 컬럼 설정 (예를 들어 마지막 컬럼을 레이블로 사용)
+    label_col = data_encoded.columns[-1]  # 변경 가능
+    # 특성 타입 설정은 원-핫 인코딩 후 모두 float
+    feature_types = ['float'] * len(feature_cols)
+
+    return data_encoded, feature_cols, label_col, feature_types
+
+def read_penguin_dict():
+    x_columns = ['x' + str(i) for i in range(6)]
+    y_column = 'species'
+    data = pd.read_csv('datasets/penguin.csv', names=x_columns + [y_column])
+    dv = DictVectorizer()
+    dv_data = dv.fit_transform([dict(row) for index, row in data[x_columns].iterrows()])
+    dv_data = pd.DataFrame(dv_data.toarray(), columns=dv.feature_names_)
+    dv_data[y_column] = data[y_column]
+    data = dv_data.dropna()
+    feature_types = ['float' if '=' not in col else 'int' for col in data.columns]
+    return data, dv.feature_names_, y_column, feature_types
+
 def get_dataset_by_string(s):
     if s=='iris':
         return read_iris_data()
@@ -553,3 +595,5 @@ def get_dataset_by_string(s):
         return read_acute_nephritis()
     elif s=='hayes-roth':
         return read_hayes_roth()
+    elif s=='penguin' :
+        return read_penguin()

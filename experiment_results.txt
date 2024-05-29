@@ -1,0 +1,130 @@
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 0
+random forest training time: 0.042841
+Prposed pruning time: 0.641573
+old pruning time: 50.669622
+conjunction set training time: 1.208636
+number of branches per iteration: [66, 180, 456, 1100, 2120, 3000, 3000, 3000, 3000]
+number_of_branches: 3291
+number_of_features_for_new_model: 17
+new model training time: 59.209886
+
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 1
+random forest training time: 0.04325
+Prposed pruning time: 0.824233
+old pruning time: 76.967792
+conjunction set training time: 1.806215
+number of branches per iteration: [34, 136, 370, 1377, 2579, 3000, 3000, 3000, 3000, 3000, 3000, 3000]
+number_of_branches: 3388
+number_of_features_for_new_model: 17
+new model training time: 57.628427
+
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 2
+random forest training time: 0.041681
+Prposed pruning time: 0.992842
+old pruning time: 119.322357
+conjunction set training time: 2.490852
+number of branches per iteration: [44, 227, 608, 1415, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000]
+number_of_branches: 4103
+number_of_features_for_new_model: 17
+new model training time: 29.583515
+
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 3
+random forest training time: 0.041054
+Prposed pruning time: 0.729822
+old pruning time: 56.400139
+conjunction set training time: 1.622047
+number of branches per iteration: [40, 186, 502, 1315, 2133, 3000, 3000, 3000, 3000, 3000, 3000]
+number_of_branches: 3215
+number_of_features_for_new_model: 17
+new model training time: 53.584721
+
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 4
+random forest training time: 0.040579
+Prposed pruning time: 0.624141
+old pruning time: 48.237499
+conjunction set training time: 1.310472
+number of branches per iteration: [42, 301, 806, 1669, 2900, 3000, 3000, 3000, 3000]
+number_of_branches: 3264
+number_of_features_for_new_model: 17
+new model training time: 53.902878
+
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 5
+random forest training time: 0.040917
+Prposed pruning time: 0.624178
+old pruning time: 48.530076
+conjunction set training time: 1.308014
+number of branches per iteration: [62, 319, 844, 1548, 3000, 3000, 3000, 3000, 3000]
+number_of_branches: 3716
+number_of_features_for_new_model: 17
+new model training time: 71.396182
+
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 6
+random forest training time: 0.041961
+Prposed pruning time: 0.803557
+old pruning time: 74.482938
+conjunction set training time: 1.786873
+number of branches per iteration: [56, 208, 342, 645, 1559, 2264, 3000, 3000, 3000, 3000, 3000, 3000]
+number_of_branches: 4003
+number_of_features_for_new_model: 17
+new model training time: 83.111148
+
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 7
+random forest training time: 0.042111
+Prposed pruning time: 0.729614
+old pruning time: 65.016109
+conjunction set training time: 1.908889
+number of branches per iteration: [58, 239, 1197, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000]
+number_of_branches: 3741
+number_of_features_for_new_model: 17
+new model training time: 71.988434
+
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 8
+random forest training time: 0.040784
+Prposed pruning time: 0.939809
+old pruning time: 105.206132
+conjunction set training time: 2.438603
+number of branches per iteration: [55, 142, 599, 1488, 2980, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000]
+number_of_branches: 3497
+number_of_features_for_new_model: 17
+new model training time: 62.450766
+
+max_number_of_branches: 3000
+df_name: penguin
+number_of_estimators: 100
+iteration: 9
+random forest training time: 0.040674
+Prposed pruning time: 0.991457
+old pruning time: 118.018284
+conjunction set training time: 2.341141
+number of branches per iteration: [38, 94, 251, 355, 803, 1776, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000]
+number_of_branches: 3429
+number_of_features_for_new_model: 17
+new model training time: 59.17797
+

@@ -1,0 +1,60 @@
+digraph {
+	<Node.Node object at 0x1661b4430> [label=<Node.Node object at 0x1661b4430>]
+	<Node.Node object at 0x1661b4430> [label="petal width (cm) <= 0.8"]
+	<Node.Node object at 0x1661b4e20> [label="petal width (cm) <= 0.7"]
+	<Node.Node object at 0x1661b4e50> [label="Class: setosa
+Proba: 1.00"]
+	<Node.Node object at 0x1661b4e20> -> <Node.Node object at 0x1661b4e50> [label=True]
+	<Node.Node object at 0x1661b4e80> [label="Class: setosa
+Proba: 0.86"]
+	<Node.Node object at 0x1661b4e20> -> <Node.Node object at 0x1661b4e80> [label=False]
+	<Node.Node object at 0x1661b4430> -> <Node.Node object at 0x1661b4e20> [label=True]
+	<Node.Node object at 0x1661b43a0> [label="petal length (cm) <= 2.6"]
+	<Node.Node object at 0x1661b4eb0> [label="sepal width (cm) <= 3.0"]
+	<Node.Node object at 0x1661b4f10> [label="sepal width (cm) <= 2.55"]
+	<Node.Node object at 0x1661b4f70> [label="sepal width (cm) <= 2.45"]
+	<Node.Node object at 0x1661b4fd0> [label="Class: virginica
+Proba: 0.50"]
+	<Node.Node object at 0x1661b4f70> -> <Node.Node object at 0x1661b4fd0> [label=True]
+	<Node.Node object at 0x1661b5000> [label="Class: virginica
+Proba: 0.60"]
+	<Node.Node object at 0x1661b4f70> -> <Node.Node object at 0x1661b5000> [label=False]
+	<Node.Node object at 0x1661b4f10> -> <Node.Node object at 0x1661b4f70> [label=True]
+	<Node.Node object at 0x1661b4fa0> [label="sepal width (cm) <= 2.85"]
+	<Node.Node object at 0x1661b5030> [label="Class: virginica
+Proba: 0.50"]
+	<Node.Node object at 0x1661b4fa0> -> <Node.Node object at 0x1661b5030> [label=True]
+	<Node.Node object at 0x1661b5060> [label="Class: virginica
+Proba: 0.50"]
+	<Node.Node object at 0x1661b4fa0> -> <Node.Node object at 0x1661b5060> [label=False]
+	<Node.Node object at 0x1661b4f10> -> <Node.Node object at 0x1661b4fa0> [label=False]
+	<Node.Node object at 0x1661b4eb0> -> <Node.Node object at 0x1661b4f10> [label=True]
+	<Node.Node object at 0x1661b4f40> [label="sepal width (cm) <= 3.1"]
+	<Node.Node object at 0x1661b5090> [label="Class: virginica
+Proba: 0.40"]
+	<Node.Node object at 0x1661b4f40> -> <Node.Node object at 0x1661b5090> [label=True]
+	<Node.Node object at 0x1661b50c0> [label="Class: versicolor
+Proba: 0.50"]
+	<Node.Node object at 0x1661b4f40> -> <Node.Node object at 0x1661b50c0> [label=False]
+	<Node.Node object at 0x1661b4eb0> -> <Node.Node object at 0x1661b4f40> [label=False]
+	<Node.Node object at 0x1661b43a0> -> <Node.Node object at 0x1661b4eb0> [label=True]
+	<Node.Node object at 0x1661b4ee0> [label="sepal width (cm) <= 2.45"]
+	<Node.Node object at 0x1661b50f0> [label="Class: virginica
+Proba: 0.60"]
+	<Node.Node object at 0x1661b4ee0> -> <Node.Node object at 0x1661b50f0> [label=True]
+	<Node.Node object at 0x1661b5210> [label="sepal width (cm) <= 3.1"]
+	<Node.Node object at 0x1661b5240> [label="sepal width (cm) <= 2.85"]
+	<Node.Node object at 0x1661b52a0> [label="Class: versicolor
+Proba: 0.50"]
+	<Node.Node object at 0x1661b5240> -> <Node.Node object at 0x1661b52a0> [label=True]
+	<Node.Node object at 0x1661b5120> [label="Class: virginica
+Proba: 0.50"]
+	<Node.Node object at 0x1661b5240> -> <Node.Node object at 0x1661b5120> [label=False]
+	<Node.Node object at 0x1661b5210> -> <Node.Node object at 0x1661b5240> [label=True]
+	<Node.Node object at 0x1661b51b0> [label="Class: versicolor
+Proba: 0.70"]
+	<Node.Node object at 0x1661b5210> -> <Node.Node object at 0x1661b51b0> [label=False]
+	<Node.Node object at 0x1661b4ee0> -> <Node.Node object at 0x1661b5210> [label=False]
+	<Node.Node object at 0x1661b43a0> -> <Node.Node object at 0x1661b4ee0> [label=False]
+	<Node.Node object at 0x1661b4430> -> <Node.Node object at 0x1661b43a0> [label=False]
+}
